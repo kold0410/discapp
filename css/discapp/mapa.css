@@ -1,0 +1,72 @@
+root { 
+    display: block;
+}
+
+.content-map {
+  display: block;
+  height: 200px;
+  margin: 0% 1% 0% 1%;
+  padding: 0;
+  position: absolute; 
+  left: 0px;       
+  right: 0px;
+  background-color: #e9eaed;
+}
+
+#map {
+    height: 200px;
+    padding: 10px;
+    position: absolute;
+    top: 0px; 
+    left:0px;
+    right: 0px;
+    bottom: 0px;
+    padding: 0;
+    background-color: #d9dbda;
+}
+
+#panel.panelExtend, #panel.panelCollect {
+    width: 100%;
+    height: 100%;
+    position: absolute;    
+    left: 0px;        
+    margin: 0px;
+    padding: 0;
+    background-color: lightyellow;
+    overflow: auto;
+}
+
+#panel.panelExtend {
+    top: 0px;  
+    transition-property:  top;
+    transition-duration:  0.4s;
+    visibility: visible;
+}
+
+#panel.panelCollect {
+    top: -550px;
+    transition-property:  top;
+    transition-duration:  0.4s;
+    visibility: hidden;
+}
+
+.titlePanel, .messagePanel {
+    color: #000000;
+}
+
+.titlePanel {
+    text-align: center;
+    font-size: 14px;
+}
+
+.messagePanel {
+    text-align: center;
+    padding: 10px;
+}
+
+#imagenError {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}

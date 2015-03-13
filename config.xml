@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns = "http://www.w3.org/ns/widgets" 
+        xmlns:gap = "http://phonegap.com/ns/1.0" 
+        id = "com.phonegap.chardasoft.discapp" 
+        version = "1.0.1">
+    
+    <!-- Descripcion de la Aplicación -->
+    <name>DiscApp</name>
+
+    <description>
+        Aplicación móvil accesible que presenta el portafolio de servicios en salud, educación y trabajo dirigidos a la población con discapacidad, por parte de las entidades públicas en Colombia.
+    </description>
+    
+    <author email="dcp.upc.10@gmail.com">
+        Daniel Andres Castillo Pedroza
+    </author>
+    
+    <author email="andres_gonzalez1012@hotmail.com">
+        Andres Felipe Gonzalez Rodriguez
+    </author>
+    
+    <author email="fabver12@gmail.com">
+        Fabian Andres Urrego Bohorquez
+    </author>
+  
+    <!-- Preferencias de DiscApp -->
+    <preference name="phonegap-version" value="3.6.3"/>
+    <preference name="orientation" value="portrait"/>
+
+    <feature name="http://api.phonegap.com/1.0/device"/>
+    <feature name="http://api.phonegap.com/1.0/geolocation"/>
+    <feature name="http://api.phonegap.com/1.0/network"/>
+  
+    <feature name="Geolocation">
+      <!-- <param name="android-package" value="org.apache.cordova.GeoBroker"/> -->
+      <param name="android-package" value="org.apache.cordova.geolocation.GeoBroker" />
+      <param name="ios-package" value="CDVLocation"/>
+    </feature>
+    
+    <!-- Plugins -->
+    <gap:plugin name="nl.x-services.plugins.socialsharing" version="4.3.8"/>
+    <gap:plugin name="org.apache.cordova.network-information" version="0.2.7"/>
+    
+    <!-- Icons de DiscApp -->
+    <!-- Android -->
+    <icon src="img/icons/android/32x32.png" gap:platform="android" width="36" height="36"/>
+    <icon src="img/icons/android/48x48.png" gap:platform="android" width="48" height="48"/>
+    <icon src="img/icons/android/72x72.png" gap:platform="android" width="72" height="72"/>
+    <icon src="img/icons/android/96x96.png" gap:platform="android" width="96" height="96"/>
+    <icon src="img/icons/android/144x144.png" gap:platform="android" width="144" height="144"/>
+
+    <!-- iOS 7+ -->
+    <!-- iPhone 6 / 6+ -->
+    <icon src="img/icons/ios/180x180.png" gap:platform="ios" width="180" height="180"/>
+
+    <!-- iPhone / iPod Touch  -->
+    <icon src="img/icons/ios/60x60.png" gap:platform="ios" width="60" height="60"/>
+    <icon src="img/icons/ios/120x120.png" gap:platform="ios" width="120" height="120"/>
+    
+    <!-- iPad -->
+    <icon src="img/icons/ios/76x76.png" gap:platform="ios" width="76" height="76"/>
+    <icon src="img/icons/ios/152x152.png" gap:platform="ios" width="152" height="152"/>
+    
+    <!-- Settings Icons -->
+    <icon src="img/icons/ios/29x29.png" gap:platform="ios" width="29" height="29"/>
+    <icon src="img/icons/ios/58x58.png" gap:platform="ios" width="58" height="58"/>
+    
+    <!-- Spotlight Icon -->
+    <icon src="img/icons/ios/40x40.png" gap:platform="ios" width="40" height="40"/>
+    <icon src="img/icons/ios/80x80.png" gap:platform="ios" width="8 0" height="80"/>
+    
+    <!-- iOS 6.1 -->
+    <!-- iPhone / iPod Touch -->
+    <icon src="img/icons/ios/57x57.png" gap:platform="ios" width="57" height="57"/>
+    <icon src="img/icons/ios/114x114.png" gap:platform="ios" width="114" height="114"/>
+    
+    <!-- iPad -->
+    <icon src="img/icons/ios/72x72.png" gap:platform="ios" width="72" height="72"/>
+    <icon src="img/icons/ios/144x144.png" gap:platform="ios" width="144" height="144"/>
+    
+    <!-- iPad Spotlight and Settings Icon -->
+    <icon src="img/icons/ios/50x50.png" gap:platform="ios" width="50" height="50"/>
+    <icon src="img/icons/ios/100x100.png" gap:platform="ios" width="100" height="100"/>
+    
+    <!-- Splash de DiscApp -->
+    <!-- Android -->
+    <gap:splash src="img/splash/android/240x320.png" gap:platform="android" gap:density="ldpi"/>
+    <gap:splash src="img/splash/android/320x480.png" gap:platform="android" gap:density="mdpi"/>
+    <gap:splash src="img/splash/android/480x800.png" gap:platform="android" gap:density="hdpi"/>
+    <gap:splash src="img/splash/android/600x1024.png" gap:platform="android" gap:density="hdpi"/>
+    <gap:splash src="img/splash/android/720x1280.png" gap:platform="android" gap:density="xhdpi"/>
+    <gap:splash src="img/splash/android/800x1280.png" gap:platform="android" gap:density="xhdpi"/>
+    
+    <!-- iOS -->
+    <!-- iPhone and iPod touch -->
+    <gap:splash src="img/splash/ios/320x480.png" gap:platform="ios" width="320" height="480"/>
+    <gap:splash src="img/splash/ios/640x960.png" gap:platform="ios" width="640" height="960"/>
+    
+    <!-- iPhone 5 / iPod Touch (5th Generation) -->
+    <gap:splash src="img/splash/ios/640x1136.png" gap:platform="ios" width="640" height="1136"/>
+    
+    <!-- iPhone 6 -->
+    <gap:splash src="img/splash/ios/750x1334.png" gap:platform="ios" width="750" height="1334"/>
+    <gap:splash src="img/splash/ios/1242x2208.png" gap:platform="ios" width="1242" height="2208"/>
+    
+    <!-- iPad -->
+    <gap:splash src="img/splash/ios/768x1024.png" gap:platform="ios" width="768" height="1024"/>
+    
+    <!-- Retina iPad -->
+    <gap:splash src="img/splash/ios/1536x2048.png" gap:platform="ios" width="1536" height="2048"/>
+    
+    <!-- Plataformas de DiscApp-->
+    <gap:platforms>
+        <gap:platform name="android" minVersion="2.1"/>
+        <gap:platform name="ios"/>
+    </gap:platforms>
+</widget>

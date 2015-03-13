@@ -1,0 +1,27 @@
+<link href="css/discapp/mapa.css" rel="stylesheet" type="text/css"/>
+
+<div class="row">
+    <div class="content-map">
+        <div id="map" aria-hidden="true"></div>
+        <div id="panel" class="panelCollect"><p class="titlePanel">Rutas</p></div>
+        <div id="panelError" hidden>
+            <div>
+                <img id="imagenError" src="img/errorGeo.png" alt="Imagen de la Página Cargando Página de Ofertas"/>
+            </div>
+            <p id="titleError" class="messagePanel compMapSmall">Advertencia: no se encontraron rutas disponibles para llegar al destino.<p>
+        </div>
+    </div>
+</div>
+
+<div id="footerMap" class="navbar navbar-default navbar-fixed-bottom" style="padding-left:10px; padding-right :10px">
+    <div class="btn-group btn-group-justified" style="margin-top: 5px; margin-bottom: 8px;">
+        <div id="btnBack" tabindex="-1" class="btn btn-primary btn-group compMapSmall"
+             aria-label="Volver. Botón">Volver
+        </div>
+        <div id="btnRutas" class="btn btn-primary btn-group compMapSmall"
+             aria-label="Cómo llegar. Botón">Cómo llegar
+        </div>
+    </div>
+</div>
+
+<script src="js/discapp/mapa.js" type="text/javascript"></script>

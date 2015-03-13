@@ -1,0 +1,128 @@
+
+@font-face {
+    font-family: 'Open Sans';
+    src : url(../fonts/OpenSans-Regular.ttf) format('truetype')
+}
+
+html {
+    font-size : 12px;
+    font-family : 'Open Sans', sans-serif;
+    color : #999999;
+}
+
+body {
+    overflow-x : hidden!important;
+    font-family : 'Open Sans', sans-serif;
+    font-stretch : ultra-condensed;
+    -webkit-font-smoothing : antialiased;
+    min-height : 100%;
+    background : #f9f9f9;
+}
+
+.btn {
+    white-space : normal;
+}
+
+
+.btn-oferta {
+    display : block; 
+    margin-left : auto; 
+    margin-right : auto;
+}
+
+#imagen {
+    display : block; 
+    margin-left : auto; 
+    margin-right : auto;
+}
+
+.navbar{
+    background: #2d2d2d;
+}
+
+.btn-margin {
+    margin : 2px;
+}
+
+.btn-margin-vertical {
+    margin-top : 4px;
+    margin-bottom : 4px;
+}
+
+.btn-group, .btn-group-justified {
+    border-radius : 3px;
+}
+
+.text-header-rigth, .img-header-left, .img-header-right {
+    padding : 5px; 
+    height : 50px;
+    width : auto;
+}
+
+.text-header-rigth {
+    float: right;
+    padding: 12px;
+     color: white; 
+     font-size: 18px;
+}
+
+.img-header-left {
+    float : left;
+}
+
+.img-header-right {
+    float : right;
+}
+
+.img-header-loading-right {
+    padding : 10px; 
+    height : 50px;
+    width : auto;
+    float: right;
+}
+
+.compSmall, .compSmallIndex {
+    font-size: 14px;
+}
+
+.compMedium, .compMediumIndex {
+    font-size: 16px;
+}
+
+.compBig, .compBigIndex  {
+    font-size: 18px;
+}
+
+.compSuperBig, .compSuperBigIndex {
+    font-size: 24px;
+}
+
+h1 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+h2, h3, h4, h5, h6 {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+#footerApp{
+    position: fixed !important;
+    bottom: 0 !important;
+    right: 0 !important;
+    left: 0 !important;
+}
+
+.alert {
+    padding: 15px;
+}
+
+.panel, .panel-heading, .panel-body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.panel-body {
+    padding: 5px;
+}

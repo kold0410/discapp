@@ -1,0 +1,31 @@
+
+.imagenAcerca {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+}
+
+.imagenAcercaTwo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.foto {
+    width: 80px; 
+    height: 80px; 
+    border-radius: 50%; 
+    display: block; 
+    float: right;
+}
+
+.titleLabel {
+    text-align: center;
+}
+
+.panelDeveloper  {
+    width: 98%;
+    height: auto;
+    margin: 1%;
+}
